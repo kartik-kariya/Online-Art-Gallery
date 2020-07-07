@@ -1,0 +1,132 @@
+.navbar .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+[data-canvas=container],
+[data-off-canvas] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+[data-canvas=container] {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* Basic background color, overwrite this in your own css. */
+    
+    -webkit-overflow-scrolling: touch;
+    /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
+}
+[data-canvas=container]:before,
+[data-canvas=container]:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+.section-homepage-content .section-team-holder {
+    margin-bottom: 100px;
+}
+.section-team-list ul {
+    margin-bottom: 0;
+}
+.section-team-list .team-list-item {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.member-list-caption:before {
+    background: #262626;
+    opacity: 0.8;
+}
+.section-team-list .team-list-item .member-list-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    color: #fff;
+    padding: 40px 15px 0 45px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.section-team-list .team-list-item .member-list-caption:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.section-team-list .team-list-item .member-list-caption .member-name {
+    font-size: 24px;
+    position: relative;
+}
+.section-team-list .team-list-item .member-list-caption .member-position {
+    color: inherit;
+    font-size: 16px;
+    position: relative;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    z-index: 2;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials li {
+    margin-right: 15px;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials a {
+    color: inherit;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials a:hover {
+    opacity: .85;
+}
+.section-team-list .team-list-item:hover .member-list-caption {
+    top: 0;
+}.section-team-list .team-list-item .member-list-caption:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.section-team-list .team-list-item .member-list-caption .member-name {
+    font-size: 24px;
+    position: relative;
+}
+.section-team-list .team-list-item .member-list-caption .member-position {
+    color: inherit;
+    font-size: 16px;
+    position: relative;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials {
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    z-index: 2;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials li {
+    margin-right: 15px;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials a {
+    color: inherit;
+}
+.section-team-list .team-list-item .member-list-caption .section-socials a:hover {
+    opacity: .85;
+}
+.section-team-list .team-list-item:hover .member-list-caption {
+    top: 0;
+}
+.section-team-list .team-list-item .member-list-caption .member-position {
+    color: inherit;
+    font-size: 16px;
+    position: relative;
+}
